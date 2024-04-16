@@ -1,5 +1,21 @@
-.container{
+.container {
     width: 1032px;
     margin: 0 auto;
     outline: 1px dashed tomato;
 }
+/* .logo{
+    margin-right:168px ;
+}
+.header{
+    background-image: url(../images/logo-background.jpg);
+    padding-bottom: 39px;
+    padding-top: 39px;
+}
+
+.logo,
+.header-nav,
+.header-list,
+.list-item {
+    display: flex;
+    align-items: center;
+} */
