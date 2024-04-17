@@ -1,11 +1,12 @@
 .container {
-    width: 1032px;
+    width: 1034px;
     margin: 0 auto;
     outline: 1px dashed tomato;
 }
-/* .logo{
-    margin-right:168px ;
-}
+.hero{}
+
+
+
 .header{
     background-image: url(../images/logo-background.jpg);
     padding-bottom: 39px;
@@ -18,4 +19,4 @@
 .list-item {
     display: flex;
     align-items: center;
-} */
+}
