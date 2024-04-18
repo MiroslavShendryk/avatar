@@ -1,22 +1,115 @@
+:root {
+    --color-light: #fff;
+    --color-dark: #000;
+    --color-activ: #94CFFF;
+    --color-button: #0B0E66;
+    --color-border: #26C7EA;
+    --color-title: #0A3853;
+    --color-uk: #141414;
+    --font-family: "Inter", sans-serif;
+    --second-family: "HeadlandOne", sans-serif;
+    --third-family: "Hammersmith One", sans-serif;
+}
+
 .container {
     width: 1034px;
     margin: 0 auto;
     outline: 1px dashed tomato;
 }
-.hero{}
 
-
-
-.header{
-    background-image: url(../images/logo-background.jpg);
+.header {
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+            rgba(43, 74, 97, 0.87)),
+        url(../images/logo-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     padding-bottom: 39px;
     padding-top: 39px;
+    border-bottom: 3px solid #fff;
 }
 
+.lang-list,
 .logo,
-.header-nav,
-.header-list,
+.nav,
 .list-item {
     display: flex;
     align-items: center;
+}
+
+.lang-list {
+    position: absolute;
+    top: 65px;
+    right: 48px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 38px;
+    margin-right: 212px;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 168px;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    outline: 1px dashed #0ceb17;
+}
+
+.nav-link {
+    color: var(--color-light);
+    font-family: var(--font-family);
+    font-weight: 300;
+    /* font-size: 20px; */
+}
+
+.nav-link:hover {
+    color: var(--color-activ);
+}
+
+.enter {
+    color: var(--color-border);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    background-color: var(--color-button);
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border: 2px solid var(--color-border);
+    padding: 7px 36px 6px 36px;
+}
+
+.ua,
+.eng {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-light);
+}
+.eng{
+    margin-right: 10px;
+}
+.header-svg{
+    margin-right: 10px;
+}
+
+
+/* hero */
+.hero{
+    padding-top: 180px;
+    padding-bottom: 179px;
+    background-image: url(../images/hero-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
