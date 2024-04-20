@@ -113,3 +113,44 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.hero-div{
+    display: flex;
+    flex-direction: column;
+}
+.hero-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-light);
+}
+.hero-text1{
+    width: 298px;
+}
+.hero-text2{
+    width: 376px;
+}
+.hero-list,
+.hero-list-item{
+    display: flex;
+    flex-direction: column;  
+}
+.hero-text2::before{
+    content:"";
+    background-image: url(../images/arrow-left.png);
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 152px;
+}
+.join{
+    color: var(--color-border);
+    font-weight: 400;
+    text-align: justify;
+    background-color: var(--color-button);
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border: 2px solid var(--color-border);
+    padding: 10px 31px 10px 30px;
+    font-family: var(--second-family);
+    font-size: 24px;
+}
