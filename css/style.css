@@ -261,6 +261,7 @@
     text-align: justify;
     color: var(--color-uk);
     text-align: center;
+     margin-bottom: 45px;
 }
 
 .translate {
@@ -272,26 +273,14 @@
 }
 
 .translate-list {
-    background: rgba(255, 255, 255, 0.7);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     gap: 24px 36px;
-    /* width: 320px;
-    height: 240px; */
+  
 }
-
-.translate-list {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 24px 36px;
-    width:  320px;
-        height: 240px; */
-}
-
 
 .translate-item {
+    background: rgba(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
     flex-basis: calc((100% - 72px) / 3);
@@ -299,4 +288,85 @@
     height: 240px;
 
 
+}
+.translate-navi{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--color-dark);
+    margin-bottom: 36px;
+    
+}
+.translate-uk{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--color-uk);
+    margin-bottom: 40px;
+    margin-top: 36px;
+}
+
+.translate-navi1::before{
+    content: "";
+    display: block;
+    background-image: url(../images/arrow-leftblue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
+}
+.translate-navi2::before{
+    content: "";
+    display: block;
+    background-image: url(../images/translate-bird.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
+}
+.translate-navi3::before{
+    content: "";
+    display: block;
+    background-image: url(../images/arrow-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
+}
+.translate-navi4::before{
+    content: "";
+    display: block;
+    background-image: url(../images/arrow-leftblue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
+}
+.translate-navi5::before{
+    content: "";
+    display: block;
+    background-image: url(../images/translate-bird.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
+}
+.translate-navi6::before{
+    content: "";
+    display: block;
+    background-image: url(../images/arrow-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 152;
+    height: 40px;
 }
