@@ -261,7 +261,7 @@
     text-align: justify;
     color: var(--color-uk);
     text-align: center;
-     margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .translate {
@@ -276,7 +276,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px 36px;
-  
+
 }
 
 .translate-item {
@@ -289,7 +289,8 @@
 
 
 }
-.translate-navi{
+
+.translate-navi {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 24px;
@@ -297,9 +298,10 @@
     text-align: center;
     color: var(--color-dark);
     margin-bottom: 36px;
-    
+
 }
-.translate-uk{
+
+.translate-uk {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 24px;
@@ -310,7 +312,7 @@
     margin-top: 36px;
 }
 
-.translate-navi1::before{
+.translate-navi1::before {
     content: "";
     display: block;
     background-image: url(../images/arrow-leftblue.png);
@@ -320,7 +322,8 @@
     width: 152;
     height: 40px;
 }
-.translate-navi2::before{
+
+.translate-navi2::before {
     content: "";
     display: block;
     background-image: url(../images/translate-bird.png);
@@ -330,7 +333,8 @@
     width: 152;
     height: 40px;
 }
-.translate-navi3::before{
+
+.translate-navi3::before {
     content: "";
     display: block;
     background-image: url(../images/arrow-right.png);
@@ -340,7 +344,8 @@
     width: 152;
     height: 40px;
 }
-.translate-navi4::before{
+
+.translate-navi4::before {
     content: "";
     display: block;
     background-image: url(../images/arrow-leftblue.png);
@@ -350,7 +355,8 @@
     width: 152;
     height: 40px;
 }
-.translate-navi5::before{
+
+.translate-navi5::before {
     content: "";
     display: block;
     background-image: url(../images/translate-bird.png);
@@ -360,7 +366,8 @@
     width: 152;
     height: 40px;
 }
-.translate-navi6::before{
+
+.translate-navi6::before {
     content: "";
     display: block;
     background-image: url(../images/arrow-right.png);
@@ -369,4 +376,20 @@
     margin-bottom: 40px;
     width: 152;
     height: 40px;
+}
+
+.footer {
+    color: var(--color-light);
+    padding-bottom: 25px;
+    padding-top: 35px;
+    background: linear-gradient(rgba(43, 74, 97, 0.87),
+            rgba(43, 74, 97, 0.87)),
+        url(../images/foooter-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-footer-img {
+    width: 183px;
+    height: 70px;
 }
