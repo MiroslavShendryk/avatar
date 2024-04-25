@@ -395,7 +395,8 @@
 .logo-footer-img {
     width: 183px;
     height: 70px;
-    
+    position: absolute;
+    margin-top: 22px;
     
 }
 
