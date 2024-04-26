@@ -171,6 +171,9 @@
     width: 260px;
     height: 80px;
 }
+.hero-svg:first-child{
+    margin-bottom: 24px;
+}
 
 .hero-list {
     display: flex;
@@ -180,6 +183,18 @@
 }
 
 /* quotes */
+.quote-blue {
+    color: var(--color-title);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .quotes {
     padding-top: 75px;
     padding-bottom: 10px;
@@ -388,51 +403,67 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.logo-footer{
-    margin-top:77px ;
+
+.footer-div {
+    height: 153px;
+    display: flex;
+    align-items: center;
 }
 
-.logo-footer-img {
+.logo-footer {
     width: 183px;
     height: 70px;
-    position: absolute;
-    margin-top: 22px;
-    
+    margin-right: 80px;
 }
 
-.footer-list {
+.address {
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    margin-left: 343px;
-    
-
+    align-items: center
 }
 
 .footer-item {
     display: flex;
     align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-light);
 }
 
-.footer-list-text,
 .footer-link {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
-    text-align: justify;
     color: var(--color-light);
 }
-.footer-list-text{
+
+.footer-list-text {
     margin-right: 20px;
 }
-.footer-svg{
+
+.footer-svg {
     margin-right: 20px;
 }
-.footer-item:first-child{
-    margin-bottom: 16px;
-}
-.footer-item:nth-child(2){
-    margin-bottom: 37px;
-}
-.footer-text{
+
+.footer-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-light);
     margin-left: 474px;
+}
+
+.address::before {
+    content: "";
+    background-image: url(../images/footer-before.png);
+    display: block;
+    width: 2px;
+    height: 153px;
+    margin-right: 80px;
+    background-color: var(--color-light);
+}
+
+.footer-item:first-child {
+    margin-bottom: 17px;
 }
