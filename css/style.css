@@ -183,7 +183,7 @@
 }
 
 /* quotes */
-.quote-blue {
+.quote-blue{
     color: var(--color-title);
     font-family: var(--font-family);
     font-weight: 400;
